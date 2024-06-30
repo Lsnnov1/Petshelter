@@ -1,0 +1,1 @@
+# INSERT INTO pets (name, species, photo_url, age, notes, available) VALUES (%(name)s, %(species)s, %(photo_url)s, %(age)s, %(notes)s, %(available)s) RETURNING pets.id
